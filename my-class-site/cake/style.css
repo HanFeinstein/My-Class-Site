@@ -1,0 +1,23 @@
+.titleimg {width:auto; height:600px; }
+.chocolateimg {width:auto; height: 600px;}
+.brownimg{width:auto; height: 600px;}
+.pinkimg{width:auto; height: 600px;}
+.pinkcherry{width:auto; height: 780px;}
+.pinklemon{width:auto; height: 780px;}
+.redimg{width:auto; height: 600px;}
+.yellowimg{width:auto; height: 600px;}
+.vanillaimg{width:auto; height: 600px;}
+.fudgeberries{width: auto; height: 780px;}
+.redlemon{width: auto; height: 780px;}
+.redberries{width: auto; height: 780px;}
+.fudgecherry{width: auto; height: 780px;}
+.yellowberries{width:auto;height:780px;}
+.yellowcherry{width: auto; height: 780px;}
+body{background-image: url("./sprinkles1.png");background-size: 100% auto;}
+#confetti {background-image: url("./words.jpg"); background-size:100% auto;}
+a:link {text-decoration: none; color: hotpink;font-size:25px}
+a:visited {color: hotpink;}
+a:hover {color: rgb(124, 128, 0);font-size: 30px;}
+h1 { font-family: cursive;
+    font-size: 45px;color:rgb(208, 0, 28)}
+#return{font-size:20px !important;color:rgb(208, 0, 28)}

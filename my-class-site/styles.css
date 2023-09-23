@@ -1,0 +1,37 @@
+h1{font-family: "courage", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 95pt; 
+    line-height: 65%;
+    color: rgb(102, 128, 0);
+    }
+h2{font-family: "courage", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75pt; 
+    line-height: 65%;
+    color: rgb(102, 128, 0);
+   }
+body {
+    background-image:url("cow.png"); background-repeat: no-repeat;}
+
+.menubutton{text-decoration: none; color: rgb(255, 255, 255);font-size:40px; 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.menubutton:visited {color: rgb(255, 255, 255);}
+.menubutton:hover {color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;}
+.button{color: rgb(102, 128, 0);
+font-size:20pt;
+font-family: Arial, Helvetica, sans-serif;}
+.button:visited {color: rgb(102, 128, 0);}
+.button:hover {color: rgb(55, 62, 5);}
+.assignments{color: rgb(55, 62, 5);
+    font-size:35pt;
+    font-family: "courage", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+.home{ text-align: left;
+    color: rgb(102, 128, 0)}
+.home:visited {color: rgb(102, 128, 0);}
+.home:hover{color: rgb(55, 62, 5);}
