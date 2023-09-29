@@ -1,0 +1,165 @@
+/* Version 1: Poster Shape */
+
+.container {
+  background-image:linear-gradient(to bottom right,rgb(19, 171, 22),rgb(6, 59, 9));
+    position: relative;
+    width: 500px;
+    
+  /*   I want my height to be a total of 700px, but there's a 20px padding all around, so I'm giving it a height of 660px (700 - 20 - 20) */
+    height: 660px; 
+    padding: 20px;
+    
+  /*   This makes it horizontally centered */
+  /*   It only works on "display:block" elements */
+    margin: auto;
+    
+  /*   This makes it centered vertically */
+  /*   It's 50% of the height, and subtracting half of the total height of the poster (which is 700px)'*/  
+    margin-top: calc(50vh - 350px);
+
+
+  } 
+
+  
+  h1{font-family: "courage", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 95pt; 
+    line-height: 90%;
+    margin-top:250px ;
+    margin-bottom:0;
+   
+  } 
+  .ball{width:150px;
+      height:150px;
+  position:absolute;
+  z-index: 1;
+  }
+  .round{border-radius:50%;
+    
+  }
+  .beige{width:63px;
+  height:63px;
+  background-color: rgb(248, 248, 214);
+  
+}
+.two{
+  position:absolute; 
+  top: 13px;
+  right: 50px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35pt;
+  font-weight: bold;
+}
+
+  .blue{background-color: rgb(4, 21, 202);
+    top: 60px;
+    left: 30px; }
+ 
+.red{background-color: rgb(136, 10, 10);
+  top:20px;
+right:135px;}
+  
+  .yellow{background-color: rgb(234, 182, 9);
+  top:100px;
+right:15px;}
+  
+.purple{background-color: rgb(53, 7, 96); 
+    top: 500px;
+    right: 60px;}
+
+  .seven{
+    position:absolute; 
+    top: 22px;
+    right: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35pt;
+    font-weight: bold;
+  }
+  .one{
+    position:absolute; 
+    top: 40px;
+    right: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35pt;
+    font-weight: bold;
+  }
+  .four{
+    position:absolute; 
+    top: 20px;
+    right: 60px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35pt;
+    font-weight: bold;
+  }
+.blue{
+    transition: transform .7s ease-in-out;
+  }
+ .blue:hover {
+    transform: rotate(360deg);
+  }
+  
+  .blueshadow{background-color: rgb(4, 21, 202);
+    top: 60px;
+    left: 30px;
+    position:absolute;
+    border-radius:50%; 
+    width:150px;
+    height:150px;
+    box-shadow: 15px 15px #000000; 
+   
+}
+  
+  .redshadow{background-color: rgb(136, 10, 10);
+    top:20px;
+    right:135px;
+    position:absolute;
+    border-radius:50%; 
+    width:150px;
+    height:150px;
+    box-shadow: 15px 15px #000000; 
+   }
+
+.red{
+    transition: transform .7s ease-in-out;
+  }
+.red:hover {
+    transform: rotate(360deg); }
+  
+  
+.yellowshadow{background-color: rgb(234, 182, 9);
+      top:100px;
+    right:15px;
+      position:absolute;
+      border-radius:50%; 
+      width:150px;
+      height:150px;
+      box-shadow: 15px 15px #000000; 
+     }
+  
+.yellow{
+      transition: transform .7s ease-in-out;
+    }
+.yellow:hover {
+      transform: rotate(360deg); }
+
+  .purpleshadow{background-color: rgb(53, 7, 96); 
+      top: 500px;
+      right: 60px;
+        position:absolute;
+        border-radius:50%; 
+        width:150px;
+        height:150px;
+        box-shadow: 15px 15px #000000; 
+       }
+    
+  .purple{
+        transition: transform .7s ease-in-out;
+      }
+  .purple:hover {
+        transform: rotate(360deg); }
+    
