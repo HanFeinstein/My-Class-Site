@@ -1,0 +1,355 @@
+/* Version 1: Poster Shape */
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+.container {
+  background-image:linear-gradient(to bottom right,rgb(28, 151, 22),rgb(4, 49, 10));
+    position: relative;
+    width: 500px;
+    
+  /*   I want my height to be a total of 700px, but there's a 20px padding all around, so I'm giving it a height of 660px (700 - 20 - 20) */
+    height: 660px; 
+    padding: 20px;
+    
+  /*   This makes it horizontally centered */
+  /*   It only works on "display:block" elements */
+    margin: auto;
+    
+  /*   This makes it centered vertically */
+  /*   It's 50% of the height, and subtracting half of the total height of the poster (which is 700px)'*/  
+    margin-top: calc(50vh - 350px);
+
+
+  } 
+  .container:hover {position: relative;
+
+
+}
+  
+  h1{
+    position: absolute;
+    left:10px;
+    font-family: "sneakers-script-ultra-wide", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 75pt; 
+    line-height: 90%;
+    margin-top:210px;
+    left:7px;
+    margin-bottom:0px;
+   
+  } 
+  
+  .date{
+    position:absolute;
+    bottom:265px;
+    font-family: 'Futurist Fixed-width', sans-serif;
+color:#000000;
+font-weight: bold;
+font-size: 13px;
+left:33px;
+text-align: center;
+  }
+
+  .ball{width:165px;
+      height:165px;
+  position:absolute;
+  z-index: 1;
+  }
+  .round{border-radius:50%;
+    
+  }
+  .beige{
+  width:65px;
+  height:65px;
+  background-color: rgb(248, 248, 214);
+  
+}
+
+
+  .blue{background-color: rgb(12, 21, 126);
+    top: 35px;
+    left: 45px; 
+   
+ 
+   }
+ 
+.red{background-color: rgb(136, 10, 10);
+  bottom:45px;
+  right:75px;
+transition: transform .7s ease-in-out;}
+
+
+
+  
+  .yellow{background-color: rgb(0, 0, 0);
+    bottom:105px;
+    right:175px;
+    display: none;
+
+transition: transform .7s ease-in-out;}
+
+
+
+
+.yellow:hover {
+   transform: rotate(360deg); }
+
+   .two{
+    position:absolute; 
+    top: 22px;
+    right: 45px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 37pt;
+    font-weight: bold;
+    transform: rotate(-10deg);
+  }
+  
+ .seven{
+    position:absolute; 
+    top: 13px;
+    right: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 37pt;
+    font-weight: bold;
+    transform: rotate(10deg);
+  }
+  .one{
+    position:absolute; 
+    top: 40px;
+    right: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30pt;
+    font-weight: bold;
+  }
+  
+
+.blue{
+    transition: transform .7s ease-in-out;
+  }
+ .blue:hover {
+    transform: rotate(360deg);
+  }
+  
+  
+  
+
+
+.red:hover {
+    transform: rotate(360deg); }
+  
+  
+
+
+  
+
+  
+        #glass{
+        position:absolute;
+        width:160px;
+        height:170px;
+        outline-style: solid;
+        outline-width:4px;
+        outline-color: black;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius:40px;
+         left: 50px;
+          bottom: 20px;
+          transform: rotate(-10deg);
+
+        }
+        #glassbackground{
+        background-color:#e5e5e5;
+          width:160px;
+            Height:170px;
+          opacity:40%;
+          z-index:-5;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius:40px;
+        }
+        #drink{
+          position:absolute;
+          background-color:#effcff;
+          width:155px;
+          height:75px;
+          bottom:18px;
+          left:2.5px;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius:40px;
+        opacity:65%;
+        }
+        #ice1{
+        position:absolute;
+        width:75px;
+        height:75px;
+        outline-style:solid;
+        outline-width:1px;
+        outline-color:#e5e5e5;
+        background-color:#aedadd;
+        transform: rotate(10deg);
+        bottom:65px;
+        left:11px;
+         }
+        #ice2{
+        position:absolute;
+        width:75px;
+        height:75px;
+        outline-style:solid;
+        outline-width:1px;
+        outline-color:#e5e5e5;
+        background-color:#aedadd;
+        transform: rotate(-22deg);
+        bottom:50px;
+        right:15px;
+         }
+        #highlight{
+          position:absolute;
+          width:20px;
+          height:110px;
+          top:20px;
+          right:15px;
+          background-color:white;
+          opacity:30%;
+        border-radius: 0px 0px 7px 7px;
+         
+        }
+        
+        #ice1:hover,#ice2:hover {
+         animation: shake 0.5s;
+        animation-iteration-count: infinite;
+        }
+        #straw1{
+        position:absolute;
+        width:6px;
+        height:235px;
+        background-color:black;
+         top:-80px;
+          left:30px;
+          transform: rotate(-20deg);
+          
+        }
+        #straw2{
+        position:absolute;
+        width:6px;
+        height:230px;
+        background-color:black;
+         top:-75px;
+          left:38px;
+          transform: rotate(-17deg);}
+        
+        @keyframes shake {
+          0% { transform: translate(1px, 1px) rotate(0deg); }
+          10% { transform: translate(-1px, -2px) rotate(-1deg); }
+          20% { transform: translate(-3px, 0px) rotate(1deg); }
+          30% { transform: translate(3px, 2px) rotate(0deg); }
+          40% { transform: translate(1px, -1px) rotate(1deg); }
+          50% { transform: translate(-1px, 2px) rotate(-1deg); }
+          60% { transform: translate(-3px, 1px) rotate(0deg); }
+          70% { transform: translate(3px, 1px) rotate(-1deg); }
+          80% { transform: translate(-1px, -1px) rotate(1deg); }
+          90% { transform: translate(1px, 2px) rotate(0deg); }
+          100% { transform: translate(1px, -2px) rotate(-1deg); }
+        }
+        #straw1:hover{
+          transform: rotate(-23deg);}
+        #straw2:hover{
+          transform: rotate(-20deg);}
+
+
+          #stick{
+          right: 120px;
+           top: -30px;
+           position: absolute;
+           width:10px;
+         height:353px;
+         background-color:grey;
+         transform: rotate(-40deg)
+         }
+         #sticktop{
+         position:absolute;
+         height:40px;
+         width:40px;
+         background-color:grey;
+          border-radius:50px;
+          left: calc(50% - 20px);
+           top:-1px;
+           }
+         #olive1{
+          position:absolute;
+          height:100px;
+         width:70px;
+         background-color:#a2c11c;
+         border-radius:50%;
+         transform: rotate(80deg);
+         left: calc(50% - 40px);
+           top:55px;
+         }
+         #pit1{
+           position:absolute;
+           height:22px;
+         width:38px;
+         background-color:rgb(136, 10, 10);
+         border-radius:50%;
+         left: calc(50% - 19px);
+          top:6px;
+          transform: rotate(-15deg)
+
+         }
+         #olive2{
+          position:absolute;
+          height:100px;
+         width:70px;
+         background-color:#a2c11c;
+         border-radius:50%;
+         transform: rotate(80deg);
+         left: calc(50% - 40px);
+           top:127px;
+         }
+         #pit2{
+          position:absolute;
+          height:22px;
+        width:38px;
+        background-color:rgb(136, 10, 10);
+        border-radius:50%;
+        left: calc(50% - 20px);
+         top:6px;
+         transform: rotate(-15deg)
+         }
+         #olive3{
+          position:absolute;
+          height:100px;
+         width:70px;
+         background-color:#a2c11c;
+         border-radius:50%;
+         transform: rotate(80deg);
+         left: calc(50% - 40px);
+           top:199px;
+         }
+         #pit3{
+          position:absolute;
+          height:22px;
+        width:38px;
+        background-color:rgb(136, 10, 10);
+        border-radius:50%;
+        left: calc(50% - 20px);
+         top:6px;
+         transform: rotate(-15deg)
+         }
+         #olive1:hover{
+           transform: rotate(60deg);}
+         #olive2:hover{
+           transform: rotate(50deg);}
+         #olive3:hover{
+           transform: rotate(60deg);}
+           a:link {text-decoration: none; color: rgb(105, 105, 105);font-size:15px}
+           a:visited {color: rgb(174, 174, 174);}
+
+
+
+
+     
+    

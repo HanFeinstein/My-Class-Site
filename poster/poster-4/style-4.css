@@ -1,0 +1,189 @@
+body {
+    background-color: rgb(0, 0, 0);
+  }
+.container {
+    background-image:linear-gradient(to bottom right,rgb(128, 198, 244),rgb(233, 248, 255));
+      position: relative;
+      width: 500px;
+      
+    /*   I want my height to be a total of 700px, but there's a 20px padding all around, so I'm giving it a height of 660px (700 - 20 - 20) */
+      height: 660px; 
+      padding: 20px;
+      
+    /*   This makes it horizontally centered */
+    /*   It only works on "display:block" elements */
+      margin: auto;
+      
+    /*   This makes it centered vertically */
+    /*   It's 50% of the height, and subtracting half of the total height of the poster (which is 700px)'*/  
+      margin-top: calc(50vh - 350px);
+  
+  
+    } 
+  
+    
+    h1{
+        position: absolute;
+        font-family: "courage", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 78pt; 
+      line-height:90%;
+      margin-top:210px ;
+      margin-bottom:225px;
+      transform: rotate(-17deg);
+      left:27px;
+     
+    } 
+    .date{ 
+    font-family: 'Futurist Fixed-width', sans-serif;
+    text-align: center;
+    color:rgb(136, 10, 10);
+    position:absolute;
+    bottom: 30px;
+    left:95px;
+    }
+    .teacher{
+        position:absolute;
+        font-family: 'Futurist Fixed-width', sans-serif;
+        font-size: 13pt;
+    top:55px;
+right:40px;
+color:rgb(136, 10, 10);}
+.jb{position: absolute;
+    font-family: 'Futurist Fixed-width', sans-serif;
+    font-size: 13pt;
+top:75px;
+right:40px;
+color:rgb(136, 10, 10);}
+
+    .ball{
+    width:190px;
+    height:190px;
+    position:absolute;
+    z-index: 1;
+    top:20px;
+    Left:30px;
+    }
+    .round{border-radius:50%;
+      
+    }
+    .beige{width:75px;
+    height:75px;
+    background-color: rgb(248, 248, 214);
+    
+  }
+  .two{
+    position:absolute; 
+    top: 50px;
+    right: 70px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45pt;
+    font-weight: bold;
+    transform: rotate(-30deg);
+
+  }
+ 
+  
+    .black{
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        transition: transform .7s ease-in-out;}
+    
+    .black:hover {
+        transform: rotate(360deg); }
+
+        #stick{
+        position: absolute;
+       bottom: -40px;
+       left:265px;
+        width:15px;
+        height:400px;
+        background-color:grey;
+        transform: rotate(-90deg)
+        
+           }
+           #sticktop{
+           position:absolute;
+           height:40px;
+           width:40px;
+           background-color:grey;
+            border-radius:50px;
+            left: calc(50% - 20px);
+             top:-1px;
+             }
+           #olive1{
+            position:absolute;
+            height:130px;
+           width:90px;
+           background-color:#a2c11c;
+           border-radius:50%;
+           transform: rotate(80deg);
+           left: calc(50% - 40px);
+             top:43px;
+           }
+           #pit1{
+             position:absolute;
+             height:25px;
+           width:41px;
+           background-color:rgb(136, 10, 10);
+           border-radius:50%;
+           left: calc(50% - 19px);
+            top:6px;
+            transform: rotate(-8deg)
+  
+           }
+           #olive2{
+            position:absolute;
+            height:130px;
+           width:90px;
+           background-color:#a2c11c;
+           border-radius:50%;
+           transform: rotate(80deg);
+           left: calc(50% - 40px);
+             top:136px;
+           }
+           #pit2{
+            position:absolute;
+            height:25px;
+          width:41px;
+          background-color:rgb(136, 10, 10);
+          border-radius:50%;
+          left: calc(50% - 20px);
+           top:6px;
+           transform: rotate(-8deg)
+           }
+           #olive3{
+            position:absolute;
+            height:130px;
+           width:90px;
+           background-color:#a2c11c;
+           border-radius:50%;
+           transform: rotate(80deg);
+           left: calc(50% - 40px);
+             top:229px;
+           }
+           #pit3{
+            position:absolute;
+            height:25px;
+          width:41px;
+          background-color:rgb(136, 10, 10);
+          border-radius:50%;
+          left: calc(50% - 20px);
+           top:6px;
+           transform: rotate(-8deg)
+           }
+           #olive1:hover{
+             transform: rotate(60deg);}
+           #olive2:hover{
+             transform: rotate(50deg);}
+           #olive3:hover{
+             transform: rotate(60deg);}
+             a:link {text-decoration: none; color: rgb(105, 105, 105);font-size:15px}
+             a:visited {color: rgb(174, 174, 174);}
+             
+.teacher:hover .jb{font-size: 16pt;}
+      
+    
+      
