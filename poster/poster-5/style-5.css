@@ -116,6 +116,19 @@ line-height: 170%;
 
     a:link {text-decoration: none; color: rgb(87, 87, 87);font-size:15px}
 a:visited {color: rgb(96, 96, 96);}
+
+.hand{position: absolute;
+    display: block;}
+
+
+#ball:hover ~.hand{   
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 25;
+    opacity: 100%;
+    transition: opacity 2.5s ease-in;
+}
   
   
   
